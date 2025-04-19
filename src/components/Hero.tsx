@@ -1,12 +1,24 @@
 
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "./ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
+import { User } from "lucide-react";
 
 export const Hero = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(90deg,hsla(221,45%,73%,1)_0%,hsla(220,78%,29%,1)_100%)] opacity-10"></div>
       <div className="max-w-4xl mx-auto text-center z-10 px-4">
+        <Avatar className="mx-auto mb-6 w-32 h-32">
+          <AvatarImage 
+            src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+            alt="Pavandeep Reddy Profile" 
+            className="object-cover"
+          />
+          <AvatarFallback>
+            <User className="w-16 h-16 text-blue-600" />
+          </AvatarFallback>
+        </Avatar>
         <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-600">
           Pavandeep Reddy
         </h1>
