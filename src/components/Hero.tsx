@@ -11,7 +11,7 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto text-center z-10 px-4">
         <Avatar className="mx-auto mb-6 w-32 h-32">
           <AvatarImage 
-            src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+            src="/lovable-uploads/3b8fc830-3ca6-4f5d-92dd-67f018fc7a44.png" 
             alt="Pavandeep Reddy Profile" 
             className="object-cover"
           />
