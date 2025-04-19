@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-[linear-gradient(90deg,hsla(221,45%,73%,1)_0%,hsla(220,78%,29%,1)_100%)] opacity-10"></div>
       <div className="max-w-4xl mx-auto text-center z-10 px-4">
         <h1 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-blue-600">
-          Karanam Bhavana
+          Pavandeep Reddy
         </h1>
         <p className="text-xl text-blue-950 mb-8 max-w-2xl mx-auto">
           Aspiring Data Science professional dedicated to delivering excellence and growth through real-world experience
